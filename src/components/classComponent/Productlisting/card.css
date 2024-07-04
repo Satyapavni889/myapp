@@ -1,0 +1,17 @@
+.card{
+    display:grid;
+    grid-template-columns: repeat(3, 190px);
+    gap: 5px;
+    justify-content: center;
+}
+li{
+    font-size: 10px;
+}
+.card div{
+    overflow-y: scroll;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.127);
+}

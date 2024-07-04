@@ -1,0 +1,57 @@
+.todos {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:rosybrown;
+  }
+   
+  .todos ol {
+    padding-left: 20px;
+  }
+  
+  .todos li {
+    margin: 10px 0;
+    list-style-type: decimal;
+  }
+  
+  .todos button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: burlywood;
+  }
+
+  
+  /* .todos button:first-of-type {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .todos button:first-of-type:hover {
+    background-color: #45a049;
+  }
+  
+  .todos button:last-of-type {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .todos button:last-of-type:hover {
+    background-color: #e53935;
+  }
+  
+  .todos button:last-of-type + button {
+    margin-left: 0;
+    background-color: #008cba;
+    color: white;
+  }
+  
+  .todos button:last-of-type + button:hover {
+    background-color: #007bb5;
+  }
+   */
