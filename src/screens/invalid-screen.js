@@ -1,5 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import Navbar from './Navbar'
 
 const Invalid = () => {
     const navigate = useNavigate()
@@ -15,6 +16,7 @@ const Invalid = () => {
     }
     return (
         <div>
+            <Navbar/>
             <h2>You have lost </h2>
             <button onClick={handleRedirection} class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                 Back to home</button>

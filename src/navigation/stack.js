@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from '../screens/home-screen'
 import About from '../screens/about-scren'
@@ -8,6 +8,7 @@ import Invalid from '../screens/invalid-screen'
 import ProductDetail from '../screens/product-screen'
 
 const Stack = () => {
+  const[profileInfo, setprofileInfo]=useState()
   return (
 
     <BrowserRouter>

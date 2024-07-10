@@ -6,14 +6,21 @@
 // import { Heading6 } from "./components/map/image,heading";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Todos } from './components/classComponent/Todos';
+import { BrowserRouter } from 'react-router-dom';
+// import { BrowserRouter, Link, Route, Router } from 'react-router-dom';
+// import About from './screens/about-scren';
+// import Home from './screens/home-screen';
+// import ProductDetail from './screens/product-screen';
+// import Example from './example/example';
+// import { Todos } from './components/classComponent/Todos';
+// import Useeffect from './components/Useeffect/useeffect';
 // import Form from './components/form-table-task/task';
 
 
 // import Courosel from "./components/courosel/courosel";
 
 
-// import Stack from "./navigation/stack";
+import Stack from "./navigation/stack";
 
 // import { Useref } from "./components/Useref/Useref";
 // import { Usestate } from "./components/usesate/usestate";
@@ -61,11 +68,14 @@ function App() {
     // <Form />
     // <Usestate />
     // <Useref />
-    // <Stack />
+    <Stack />
     // <Carousel/>
     // <Form/>
     // <Form/>
-  <Todos/>
+  // <Todos/>
+  // <Useeffect/>
+  // <Example/>
+  
   )
 }
 
